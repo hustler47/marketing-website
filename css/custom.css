@@ -9,15 +9,22 @@
 }
 
 .service-box {
-        box-shadow:0px 0 10px 1px #7d7d7d;
+        
         padding: 10px;
         margin: 5px;
         border-radius: 5px;
-        transition: box-shadow .3s;
-        transition: transform .2s; /* Zoom */
+        transition: box-shadow .8s;
+        transition: transform .8s; /* Zoom */
+        
+        
+   
 }
 
 .service-box:hover{
-    box-shadow: 0px 0 10px 1px #7d7d7d; 
-    transform: scale(1.08)
+    box-shadow: 0px 0 20px 1px #7d7d7d; 
+    transform: scale(1.08);
+    transition: box-shadow .4s;
 }
+
+
+
