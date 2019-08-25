@@ -1,5 +1,6 @@
 .team-discription {
-    text-align: left;
+    text-align: justify;
+    
 }
 
 .services-text {
@@ -25,6 +26,7 @@
     transform: scale(1.08);
     transition: box-shadow .4s;
 }
-
-
+.timeline-body {
+    text-align: justify
+}
 
